@@ -1,0 +1,38 @@
+html, body
+{
+	width: auto;
+	font-family: "Arial", sans-serif;
+}
+#legalStuff
+{
+	text-align: right;
+	font-size: 0.7em;
+}
+.bottomAttached
+{
+	position: absolute;	
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#logContainer
+{
+	margin: 0.5em;
+	margin-bottom: 0;
+	padding: 0;
+}
+.logWindow
+{
+	border: 0.1em solid #000;
+	height: 15em;
+	overflow: auto;
+	padding: 0.5em;
+	margin: 0;
+	background-color: #EEE;
+	font-size: 0.8em;
+	list-style-type: none;
+}
+.behindTheScenes
+{
+	display: none;
+}
